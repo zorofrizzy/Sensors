@@ -4,6 +4,8 @@ I'll keep on adding sensors here
 after interfacing them for easy
 usage.
 
+These sensors are to be integrated with the Arduino development board units.
+
 # 1.  Ultrasonic 
 HS04 sensor. 
 
@@ -20,3 +22,9 @@ current : 15mA
 Always make a voltage divider circuit for 2 pin resistive sensor.
 The resistance to be added is the maximum resistance that the 
 offers for the best deflection.
+
+# 3. Bluetooth (HC05)
+
+Pin information is given in the code itself.
+We generally use just 4 pins (Vcc, Gnd, Rx, Tx). 
+Remove Rx Tx pins while uploading the code to avoid errors.
